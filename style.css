@@ -1,0 +1,333 @@
+:root {
+  --pr-hijau: #048853;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #e5e5e5;
+}
+/* navbar style */
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-link.active {
+  font-size: 16px;
+  font-weight: 700;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-masuk {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--pr-hijau);
+}
+.btn-daftar {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+/* navbar end */
+/* style hero */
+#hero {
+  background: linear-gradient(160deg, var(--pr-hijau), #000);
+  height: 100vh;
+}
+.text-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+}
+.text-hero p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  width: 85%;
+}
+
+.btn-lg{
+  width: 237px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color:#fff ;
+  color: var(--pr-hijau);
+  border: none;
+}
+/* end style hero */
+/* layanan style */
+#our-service{
+    padding: 100px 0;
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--pr-hijau);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:var(--pr-hijau);
+
+}
+.card-layanan{
+    width: 380px;
+    height: 313px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card-layanan h4{
+    font-size: 24;
+    font-weight: 500;
+    color:var(--pr-hijau);
+}
+.card-layanan p{
+    color: #000;
+}
+/* ini hover card */
+.card-layanan:hover{
+    height: 313px;
+    padding: 40px;
+    background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+    border-radius: 5px;
+}
+.card-layanan:hover h4{
+    font-size: 24;
+    font-weight: 500;
+    color:#fff;
+}
+.card-layanan:hover p{
+    color: #fff;
+}
+
+.card-layanan:hover .container-img{
+    background-color: #fff;
+}
+
+/* end hver card */
+
+
+
+
+/* end layanan */
+
+/* style temukan rumah */
+#temukan-rumah{
+    height: 100vh;
+    background-image: url(img/interior\ japen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tmk-rumah{
+    font-size: 48px;
+    font-weight: 700;
+    color:#fff;
+}
+.sub-tmk-rmh{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.btn-tab{
+    height: 42px;   
+    color: #000;
+    background-color: rgb(255,255,255, 0.5);
+    border:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.jual{
+    border-radius: 10px 0 0 0;
+}
+.property{
+    border-radius: 0 10px 0 0;
+}
+
+.btn-tab.active{
+    height: 42px;   
+    color:var(--pr-hijau);
+    background-color: rgba(255, 255, 255, 0.8);
+    border:none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in;
+}
+
+.input-group{
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 10px;
+}
+
+.btn-cari{
+    width: 135px;
+    height: 100%;
+    border: none;
+    background-color: var(--pr-hijau);
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-search{
+    width: 200px;
+    border: none;
+    background-color:transparent;
+    color: var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    border-right: solid 2px #fff;
+}
+.nav-tabs{
+    border: none;
+}
+.form-control{
+    border: none;
+    background-color:transparent;
+}
+.form-control::placeholder{
+    color: var(--pr-hijau);
+}
+.form-control:focus{
+    box-shadow: 1px 1px 5px 1px var(--pr-hijau);
+    color: var(--pr-hijau);
+}
+/* end style  temukan rumah */
+
+/* style rekomendasi rumah */
+#rekomendasi{
+    height: 180vh;
+}
+.card-rek{
+    height: 489px;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card-gbr{
+    height: 280px;
+}
+
+.idr{
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.jl{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fasilitas{
+    height: 67px;
+    background-color: rgb(246, 248, 247);
+
+}
+.sub-fsi{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* card hover*/
+.card-rek:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
+}
+.card-rek:hover h1{
+    color:#fff;
+    transition: all 0.1 ease-in;
+}
+.card-rek.fasilitas{
+    color:#000000;
+    transition: all 0.1 ease-in;
+}
+/* end card hover*/ 
+
+/* end style rekomendasi rumah */
+
+/* style fitur */
+#fitur{
+    height: 200vh;
+}
+.fitur-fnt{
+    font-weight: 600;
+    font-size: 50px;
+}
+.btn-e{
+    width: 235px;
+    height: 60px;
+    border-radius: 0 0 0 0;
+    background-color: var(--pr-hijau);
+    color: #fff;
+    border: none;
+}
+.overlay h5{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.overlayspan{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.overlay h6{
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff
+}
+.btn-lr{
+    border: none;
+    background-color: var(--pr-hijau);
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+     color: #fff;
+    
+}
+.card-fitur{
+    width: 340px;
+    height: 480px;
+   
+}
+.overlay{
+    background: rgb(0, 0, 0, 0.5);
+    opacity:0;
+}
+.card-fitur .overlay:hover{
+    opacity: 1;
+    transition : all ease-in-out .3s;
+}
+/* end style fitur */

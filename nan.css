@@ -1,0 +1,55 @@
+/* navbar style */
+.navbar-brand {
+  font-size: 60px;
+  font-weight: 900px;
+  color:#000000;
+}
+.navbar-brand1 {
+  font-size: 60px;
+  font-weight: 900px;
+  color:#362FD9;
+}
+.nav-link.active {
+  font-size: 23px;
+  font-weight: 700px;
+  background-color: #fcfcfc;
+  border:none;
+  color: #362FD9;
+}
+.nav-link{
+   font-size: 23px;
+  font-weight: 700px;
+}
+.btn-contact{
+  width: 133px;
+  height: 40px;
+  background-color: #362FD9;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fcfcfc;
+  border-radius: 20px;
+}
+/* navbar end */
+.btn-outline-gett{
+  width: 133px;
+  height: 40px;
+  background-color: #362FD9;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fcfcfc;
+  border-radius: 20px;
+}
+.btn-outline-vidio{
+  width: 133px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #362FD9;
+  border-radius: 20px;
+  border: solid 2px;
+}
+/* sectioon */
