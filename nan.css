@@ -1,24 +1,33 @@
+:root{
+  --pr-ungu: #362FD9;
+}
+
+body{
+  font-family: "Poppins";
+  background-color: #fcfcfc;
+}
 /* navbar style */
 .navbar-brand {
-  font-size: 60px;
-  font-weight: 900px;
-  color:#000000;
+  font-size: 25px;
+  font-weight: 400;
 }
 .navbar-brand1 {
-  font-size: 60px;
-  font-weight: 900px;
+  font-size: 25px;
+  font-weight: 400px;
   color:#362FD9;
+  text-decoration: none;
+ 
 }
 .nav-link.active {
-  font-size: 23px;
-  font-weight: 700px;
+  font-size: 16px;
+  font-weight: 400px;
   background-color: #fcfcfc;
   border:none;
   color: #362FD9;
 }
 .nav-link{
-   font-size: 23px;
-  font-weight: 700px;
+   font-size: 16px;
+  font-weight: 400px;
 }
 .btn-contact{
   width: 133px;
@@ -52,4 +61,36 @@
   border-radius: 20px;
   border: solid 2px;
 }
-/* sectioon */
+
+/* section */
+.text-hero h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+.warna{
+  color: var(--pr-ungu);
+}
+img {
+  text-align: center;
+  font-size: 50px;
+}
+/* end section */
+
+/* knp */
+#our-service{
+    padding: 100px 0;
+    width: 100%;
+  }
+.warna2{
+  color: var(--pr-ungu);
+}
+h1{ 
+    font-size: 10px;
+    font-weight: 400;
+}
+p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #000000;
+}
+/* end knp */
