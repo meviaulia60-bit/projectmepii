@@ -18,6 +18,9 @@ body{
   text-decoration: none;
  
 }
+.warna{
+   color: var(--pr-ungu);
+}
 .nav-link.active {
   font-size: 16px;
   font-weight: 400px;
@@ -67,7 +70,7 @@ body{
   font-size: 40px;
   font-weight: 400;
 }
-.warna{
+.warna1{
   color: var(--pr-ungu);
 }
 img {
@@ -76,21 +79,56 @@ img {
 }
 /* end section */
 
-/* knp */
-#our-service{
-    padding: 100px 0;
-    width: 100%;
-  }
+/* section alasan */
 .warna2{
   color: var(--pr-ungu);
 }
-h1{ 
-    font-size: 10px;
-    font-weight: 400;
+#alasan{
+  padding: 100px 0;
+  font-size: 15px;
 }
-p{
-    font-size: 10px;
-    font-weight: 400;
-    color: #000000;
+h1{
+  font-size: 45px;
+  font-weight: 10px;
+  color: #000;
+  font-style: bold;
 }
-/* end knp */
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+.card-body{
+  height: 284px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  transition: all 0.1s ease-in;
+}
+.card-body img{
+  height: 60px;
+  width: 60x;
+  border:none;
+  transition: all 0.1s ease-in;
+}
+#profil{
+  padding: 100px ;
+  font-size: 15px;
+}
+/* end section alasan */
+
+/* section profil */
+#profil{
+  padding:55px 0;
+  width: 100%;
+}
+.kepsek h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+.kepsek p{
+  font-size: 16px;
+}
+.btn-pro
+
+/* end section profil */
